@@ -18,7 +18,7 @@ public class LedgerUpdationDetails
 	@JoinColumn(name="ledgerDetailsId")
 	private String ledgerDetailsId;
 	//need to get from mf_ledger_details table
-	private String caseNumber;
+	private String loanNo;
 	private String emiPaidDate;
 	private double emiPaidAmount;
 	private int bucket;
@@ -37,11 +37,11 @@ public class LedgerUpdationDetails
 	public void setLedgerDetailsId(String ledgerDetailsId) {
 		this.ledgerDetailsId = ledgerDetailsId;
 	}
-	public String getCaseNumber() {
-		return caseNumber;
+	public String getLoanNo() {
+		return loanNo;
 	}
-	public void setCaseNumber(String caseNumber) {
-		this.caseNumber = caseNumber;
+	public void setLoanNo(String loanNo) {
+		this.loanNo = loanNo;
 	}
 	public String getEmiPaidDate() {
 		return emiPaidDate;

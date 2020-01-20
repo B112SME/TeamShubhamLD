@@ -9,8 +9,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @SpringBootApplication
 public class LoanDisbursmentPaymentLedgerCreationApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
+		System.out.println("Start");
 		SpringApplication.run(LoanDisbursmentPaymentLedgerCreationApplication.class, args);
+		System.out.println("End");
 	}
 
 }
