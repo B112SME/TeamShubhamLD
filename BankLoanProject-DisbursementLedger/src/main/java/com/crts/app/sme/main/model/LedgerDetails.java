@@ -12,7 +12,7 @@ import javax.persistence.OneToOne;
 public class LedgerDetails {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	//@GeneratedValue(strategy = GenerationType.AUTO)
 	private int ledgerDetailsId;
 	
 	//@OneToOne(cascade=CascadeType.ALL)

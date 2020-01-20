@@ -5,10 +5,10 @@ import java.util.List;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
-import com.crts.app.sme.main.model.LedgerDetails;
+import com.crts.app.sme.main.model.EmiPaymentDetails;
 
 @Repository
-public interface LedgerDetailsRepository extends CrudRepository<LedgerDetails, Integer>{
-
-	List<LedgerDetails> findAll();
+public interface EmiPaymentDetailsRepository extends CrudRepository<EmiPaymentDetails, Integer>
+{
+	
 }
