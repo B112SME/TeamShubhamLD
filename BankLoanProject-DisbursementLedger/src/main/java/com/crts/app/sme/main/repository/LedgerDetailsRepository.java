@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.crts.app.sme.main.model.LedgerDetails;
 
 @Repository
-public interface LedgerDetailsRepository extends CrudRepository<LedgerDetails, Integer>{
+public interface LedgerDetailsRepository extends CrudRepository<LedgerDetails, Integer>
+{
 
 }

@@ -5,6 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin("*")
-public class LedgerDetailsController {
+public class LedgerDetailsController 
+{
 
 }
